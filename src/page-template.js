@@ -1,5 +1,4 @@
-const fs = require ('fs');
-const generatePage = (name, github) => {
+module.exports = (name, github) => {
     return `
     <!DOCTYPE html> 
     <html lang="en"> 
@@ -16,6 +15,4 @@ const generatePage = (name, github) => {
     </body>
     </html>
     `;
-  };
-
-module.exports = generatePage;
+};
