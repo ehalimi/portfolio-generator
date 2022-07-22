@@ -11,6 +11,7 @@ const generateAbout = aboutText => {
   `;
 };
 
+// create the projects section
 const generateProjects = projectsArr => {
     return `
       <section class="my-3" id="portfolio">
